@@ -1,0 +1,266 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    margin: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.page
+{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.page > header
+{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(45deg, rgb(91, 199, 202), rgb(229, 235, 173));
+    border-radius: 0 0 20px 20px;
+}
+
+.main_logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+#icon
+{
+    width: 150px;
+}
+
+h1
+{
+    margin: 0;
+    font-size: 300%;
+    font-family: 'Mulish', sans-serif;
+}
+
+#clock
+{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: grey;
+    padding-top: 30px;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-size: 300%;
+    font-weight: 600;
+    font-family: 'Work Sans';
+    text-align: center;
+    color: white;
+}
+
+main
+{
+    width: 100%;
+}
+
+.menu
+{
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: grey;
+    width: 95%;
+    margin: 0 auto;
+    height: 50px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+    background: linear-gradient(45deg, rgb(91, 199, 202), rgb(229, 235, 173));
+    border-radius: 20px;
+    display: flex;
+}
+
+.menu > div
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu > div > a 
+{
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: grey;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 0;
+    color: white !important;
+}
+
+#about_me
+{
+    border-radius: 20px 0 0 20px;
+}
+
+#contact
+{
+    border-radius:0 20px 20px 0;
+}
+
+#about_me:hover
+{
+    animation-name: aboutme-change;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+}
+
+#skills:hover
+{
+    animation-name: skills-change;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+}
+
+#gallery:hover
+{
+    animation-name: gallery-change;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+}
+
+#contact:hover
+{
+    animation-name: contact-change;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+}
+
+.cool_stuff
+{
+    margin: 0 auto;
+    width: 30%;
+    height: 400px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-size: 60px;
+    border: solid 4px blueviolet;
+}
+
+article > header
+{
+    width: 90%;
+    height: 60px;
+    background: linear-gradient(45deg, rgb(229, 235, 173), rgb(204, 187, 204));
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h2
+{
+    margin-right: 5%;
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 1000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(229, 235, 173);
+}
+
+article > section
+{
+    margin: 0 auto;
+    width: 70%;
+    padding: 5%;
+    height: 400px;
+    background-color: grey;
+    color: white;
+    border-radius: 50px;
+}
+
+form
+{
+    margin-left: 30px;
+}
+
+textarea
+{
+    width: 400px;
+    height: 200px;
+    resize: none;
+}
+
+footer
+{
+    width: 100%;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    background: linear-gradient(45deg, rgb(91, 199, 202), rgb(229, 235, 173));
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+
+footer > div
+{
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer > div > p
+{
+    margin: 0;
+}
+
+#date
+{
+    text-align: center;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: grey;
+    font-family: 'Work Sans';
+}
+
+.name
+{
+    font-size: 15px;
+}
+
+#go_top
+{
+    color: white;
+    padding: 2px 4px 2px 4px;
+    background-color: rgb(204, 187, 204);
+    border-radius: 6px;
+    border: solid 2px white;
+    text-decoration: none;
+}
+
+footer > div > a > p
+{
+    margin: 0;
+}
+
+#go_top:hover
+{
+    animation-name: top-change;
+    animation-duration: 600ms;
+    animation-fill-mode: forwards;
+}

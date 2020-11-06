@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html lang="en pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Stworzę dla Ciebie stronę www i nie tylko! Zatrudnij programistę: HTML, CSS, PHP, JavaScript, C++, C#, C." />
+        <meta name="keywords" content="zamów, stronę, tworzenie, www, programista, portfolio, php, html, css, java, script, c, c++, c#, javascript"/>
+
+        <link rel="stylesheet" type="text/css" href="main_style.css"/>
+        <link rel="stylesheet" type="text/css" href="second_style.css"/>
+        <link rel="icon" href="icon.png">
+
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@800&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+
+        <script type="text/javascript" src="date.js"></script>
+
+        <title>Hubert Bałuszyński | Portfolio</title>
+    </head>
+
+    <body onload="counting()">
+        <div class="page">
+        <header>
+            <div class="main_logo">
+                <img id="icon" src="icon.png" alt="Logo">
+                <h1>Hubert Bałuszyński</h1>
+            </div>
+            <div id="clock"></div>
+        </header>
+        <br>
+        <main>
+            <div class="menu">
+                <div id="about_me"><a href="#about_me_page">ABOUT ME</a></div>
+                <div id="skills"><a href="#skills_page">SKILLS</a></div>
+                <div id="gallery"><a href="#gallery_page">GALLERY</a></div>
+                <div id="contact"><a href="#contact_page">CONTACT</a></div>
+            </div>
+            <br>
+            <div class="cool_stuff">Chce 6</div>
+            <br>
+            <article>
+                <header id="about_me_page"><h2>ABOUT ME</h2></header>
+                <br>
+                <section>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                    It has roots in a piece of classical Latin literature from 45 BC, 
+                    making it over 2000 years old. Richard McClintock, a Latin professor 
+                    at Hampden-Sydney College in Virginia, looked up one of the more 
+                    obscure Latin words, consectetur, from a Lorem Ipsum passage, and 
+                    going through the cites of the word in classical literature, discovered 
+                    the undoubtable source. Lorem Ipsum comes from sections 1.10.32 
+                    and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good 
+                    and Evil) by Cicero, written in 45 BC. This book is a treatise on the 
+                    theory of ethics, very popular during the Renaissance. The first line 
+                    of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in 
+                    section 1.10.32.
+                </section>
+            </article>
+            <br>
+            <article>
+                <header id="skills_page"><h2>SKILLS</h2></header>
+                <br>
+                <section>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                    It has roots in a piece of classical Latin literature from 45 BC, 
+                    making it over 2000 years old. Richard McClintock, a Latin professor 
+                    at Hampden-Sydney College in Virginia, looked up one of the more 
+                    obscure Latin words, consectetur, from a Lorem Ipsum passage, and 
+                    going through the cites of the word in classical literature, discovered 
+                    the undoubtable source. Lorem Ipsum comes from sections 1.10.32 
+                    and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good 
+                    and Evil) by Cicero, written in 45 BC. This book is a treatise on the 
+                    theory of ethics, very popular during the Renaissance. The first line 
+                    of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in 
+                    section 1.10.32.
+                </section>
+            </article>
+            <br>
+            <article>
+                <header id="gallery_page"><h2>GALLERY</h2></header>
+                <br>
+                <section>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                    It has roots in a piece of classical Latin literature from 45 BC, 
+                    making it over 2000 years old. Richard McClintock, a Latin professor 
+                    at Hampden-Sydney College in Virginia, looked up one of the more 
+                    obscure Latin words, consectetur, from a Lorem Ipsum passage, and 
+                    going through the cites of the word in classical literature, discovered 
+                    the undoubtable source. Lorem Ipsum comes from sections 1.10.32 
+                    and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good 
+                    and Evil) by Cicero, written in 45 BC. This book is a treatise on the 
+                    theory of ethics, very popular during the Renaissance. The first line 
+                    of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in 
+                    section 1.10.32.
+                </section>
+            </article>
+            <br>
+            <article>
+                <header id="contact_page"><h2>CONTACT</h2></header>
+                <br>
+                <section>
+                    <form method="POST">
+                        <input type="text" name="imie" placeholder="Imię" size="35" maxlength="15" required>
+                        <br><br>
+                        <input type="email" id="email" name="email" placeholder="E-mail" size="35" required>
+                        <br><br>
+                        <textarea name="textarea" placeholder="Wyślij wiadomość..." maxlength="700" required></textarea>
+                        <br><br>
+                        <input type="reset" value="Reset" />
+                        <input type="submit" value="Send" />
+                    </form>
+                </section>
+            </article>
+            <br>
+        </main>
+        <footer>
+            <div id="date"></div>
+            <div class="name">
+                <p>@Hubert Bałuszyński<br>
+                Technikum Komunikacji im. Hipolita Cegielskiego w Poznaniu</p>
+            </div>
+            <div><a id="go_top" href="#top"><p>TOP</p></a></div>
+        </footer>
+        </div>
+    </body>
+</html>

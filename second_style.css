@@ -1,0 +1,47 @@
+@keyframes aboutme-change
+{
+    100%
+    {
+        background: linear-gradient(45deg, #ccbbcc, #c7c8d5);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(229, 235, 173);
+    }
+}
+
+@keyframes skills-change
+{
+    100%
+    {
+        background: linear-gradient(45deg, #c7c8d5, #c2d5de);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(229, 235, 173);
+    }
+}
+
+@keyframes gallery-change
+{
+    100%
+    {
+        background: linear-gradient(45deg, #c2d5de, #bde2e7);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(229, 235, 173);
+    }
+}
+
+@keyframes contact-change
+{
+    100%
+    {
+        background: linear-gradient(45deg, #bde2e7, #b8eef0);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(229, 235, 173);
+    }
+}
+
+@keyframes top-change
+{
+    100%
+    {
+        background-color: rgb(91, 199, 202);
+    }
+}
